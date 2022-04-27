@@ -71,12 +71,8 @@ common/autoinstallers/*/.npmrc
 # Heft
 .heft
 
-### VisualStudioCode ###
-.vscode/**/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
+# VisualStudioCode
+.vscode
 
 ### VisualStudioCode Patch ###
 # Ignore all local history of files
