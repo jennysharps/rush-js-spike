@@ -1,26 +1,29 @@
-import React from "react";
-import { View, StyleSheet } from "react-native";
-import Title from "../Title";
+import React from 'react';
+import { View, StyleSheet, ViewStyle } from 'react-native';
+import Title from '../Title';
 
-interface Props {
-    title?: string
+interface IProps {
+  title?: string;
 }
 
-export const Card: React.FC<Props> = ({ title, children, ...restProps }) => {
-  return (
-    <View {...restProps}>
-      {title && <Title style={[styles.baseText]}>{title}</Title>}
-      {children}
-    </View>
-  );
+interface IStyles {
+  baseText: ViewStyle;
 }
 
-const styles = StyleSheet.create({
+const styles: StyleSheet.NamedStyles<IStyles> = StyleSheet.create({
   baseText: {
     fontWeight: 'bold',
     color: 'red'
   }
 });
 
+export const Card: React.FC<IProps> = ({ title, children, ...restProps }) => {
+  return (
+    <View {...restProps}>
+      {title && <Title style={[styles.baseText]}>{title}</Title>}
+      {children}
+    </View>
+  );
+};
 
 export default Card;

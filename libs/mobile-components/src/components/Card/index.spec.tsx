@@ -1,10 +1,10 @@
-import React from "react";
-import { render } from "@testing-library/react-native";
+import React from 'react';
+import { render } from '@testing-library/react-native';
 
-import Title from ".";
+import Title from '.';
 
-describe("Title", () => {
-  it("should render successfully", () => {
+describe('Title', () => {
+  it('should render successfully', () => {
     const { container } = render(<Title>Test Title</Title>);
     expect(container).toBeTruthy();
   });

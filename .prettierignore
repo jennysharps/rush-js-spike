@@ -1,3 +1,7 @@
+#-------------------------------------------------------------------------------------------------------------------
+# Keep this section in sync with .gitignore
+#-------------------------------------------------------------------------------------------------------------------
+
 # Logs
 *.log
 npm-debug.log*
@@ -68,7 +72,7 @@ common/autoinstallers/*/.npmrc
 .heft
 
 ### VisualStudioCode ###
-.vscode/*      # Maybe .vscode/**/* instead - see comments
+.vscode/**/*
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
@@ -77,3 +81,34 @@ common/autoinstallers/*/.npmrc
 ### VisualStudioCode Patch ###
 # Ignore all local history of files
 **/.history
+
+#-------------------------------------------------------------------------------------------------------------------
+# Prettier-specific overrides
+#-------------------------------------------------------------------------------------------------------------------
+
+# Rush files
+common/changes/
+common/scripts/
+common/config/
+common/git-hooks/
+CHANGELOG.*
+
+# Package manager files
+pnpm-lock.yaml
+yarn.lock
+package-lock.json
+shrinkwrap.json
+
+# Build outputs
+dist
+lib
+temp
+
+# Prettier reformats code blocks inside Markdown, which affects rendered output
+*.md
+
+# Prettier cannot infer a parser for these files
+.gitignore
+.gitattributes
+.prettierignore
+# *.npmrc
