@@ -1,0 +1,3 @@
+module.exports = {
+  preset: './node_modules/@rushstack/heft/includes/jest-shared.config.json'
+};
