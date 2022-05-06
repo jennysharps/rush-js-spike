@@ -2,6 +2,18 @@
   "name": "@jennysharps/mobile-components",
   "entries": [
     {
+      "version": "1.0.2",
+      "tag": "@jennysharps/mobile-components_v1.0.2",
+      "date": "Fri, 06 May 2022 17:53:56 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Added REAMD.md"
+          }
+        ]
+      }
+    },
+    {
       "version": "1.0.1",
       "tag": "@jennysharps/mobile-components_v1.0.1",
       "date": "Fri, 06 May 2022 17:46:37 GMT",
