@@ -11,7 +11,7 @@ importers:
       '@babel/preset-env': ^7.17.10
       '@babel/runtime': ^7.17.7
       '@callstack/repack': ^2.5.2
-      '@jennysharps/mobile-components': workspace:*
+      '@jennysharps/mobile-components': 1.0.2
       '@react-native-community/cli': ^7.0.3
       '@react-native-community/cli-platform-android': ^7.0.1
       '@react-native-community/cli-platform-ios': ^7.0.1
@@ -39,7 +39,7 @@ importers:
       typescript: ^4.6.2
       webpack: ^5.70.0
     dependencies:
-      '@jennysharps/mobile-components': link:../../libs/mobile-components
+      '@jennysharps/mobile-components': 1.0.2_b50dd7e3ae15045903644b317ce74f52
       react: 17.0.2
       react-native: 0.67.4_e790ad7392546dbbcfe0cdb89b299aa0
       react-native-paper: 4.12.1_ebfae97d888ac2cb3aad0f362471545e
@@ -1543,6 +1543,18 @@ packages:
     resolution: {integrity: sha512-ZXRY4jNvVgSVQ8DL3LTcakaAtXwTVUxE81hslsyD2AtoXW/wVob10HkOJ1X/pAlcI7D+2YoZKg5do8G/w6RYgA==}
     engines: {node: '>=8'}
     dev: true
+
+  /@jennysharps/mobile-components/1.0.2_b50dd7e3ae15045903644b317ce74f52:
+    resolution: {integrity: sha512-HfGtc4Z4/CaY1vV3iidUTvKw7zcp9cBXLG1KTa4e6vXZ41bZpSb9eFiizvq1we7TYxJHSTxzvvdNCVgjoLI1Ng==}
+    peerDependencies:
+      '@babel/core': ^7.17.10
+      react: ^17.0.2
+      react-native: ^0.67.3
+    dependencies:
+      '@babel/core': 7.17.10
+      react: 17.0.2
+      react-native: 0.67.4_e790ad7392546dbbcfe0cdb89b299aa0
+    dev: false
 
   /@jest/console/26.6.2:
     resolution: {integrity: sha512-IY1R2i2aLsLr7Id3S6p2BA82GNWryt4oSvEXLAKc+L2zdi89dSkE8xC1C+0kpATG4JhBJREnQOH7/zmccM2B0g==}

@@ -466,7 +466,8 @@
     {
       "packageName": "@jennysharps/mobile-rn",
       "projectFolder": "apps/mobile-rn",
-      "shouldPublish": false
+      "shouldPublish": false,
+      "cyclicDependencyProjects": ["@jennysharps/mobile-components"]
     },
     {
       "packageName": "@jennysharps/mobile-components",
