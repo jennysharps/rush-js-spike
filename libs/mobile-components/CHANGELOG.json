@@ -2,6 +2,18 @@
   "name": "@jennysharps/mobile-components",
   "entries": [
     {
+      "version": "1.0.3",
+      "tag": "@jennysharps/mobile-components_v1.0.3",
+      "date": "Fri, 06 May 2022 18:18:47 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Publish README"
+          }
+        ]
+      }
+    },
+    {
       "version": "1.0.2",
       "tag": "@jennysharps/mobile-components_v1.0.2",
       "date": "Fri, 06 May 2022 17:53:56 GMT",
