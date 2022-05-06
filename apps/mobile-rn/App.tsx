@@ -10,9 +10,9 @@
 
 import React from 'react';
 import {Provider as PaperProvider, DefaultTheme} from 'react-native-paper';
-import {Text} from 'react-native';
+import {Text, SafeAreaView} from 'react-native';
 
-import {Card} from '@jennysharps/mobile-components';
+import {Card, version} from '@jennysharps/mobile-components';
 
 const theme = {
   ...DefaultTheme,
@@ -26,9 +26,11 @@ const theme = {
 const App = () => {
   return (
     <PaperProvider theme={theme}>
-      <Text>Hello</Text>
-      <Text>Card:</Text>
-      {JSON.stringify(Card)}
+      <SafeAreaView>
+        <Card title="Card Title">
+          <Text>{`Card content from mobile-components version ${version()}`}</Text>
+        </Card>
+      </SafeAreaView>
     </PaperProvider>
   );
 };
