@@ -464,6 +464,11 @@
     //   "tags": ["libraries", "web"]
     // },
     {
+      "packageName": "@jennysharps/mobile-rn",
+      "projectFolder": "apps/mobile-rn",
+      "shouldPublish": false
+    },
+    {
       "packageName": "@jennysharps/mobile-components",
       "projectFolder": "libs/mobile-components",
       "shouldPublish": true

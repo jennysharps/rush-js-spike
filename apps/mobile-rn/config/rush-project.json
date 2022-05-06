@@ -1,0 +1,16 @@
+{
+  "operationSettings": [
+    {
+      "operationName": "build",
+      "outputFolderNames": ["build"]
+    },
+    {
+      "operationName": "build:watch",
+      "outputFolderNames": ["dist"]
+    },
+    {
+      "operationName": "test",
+      "disableBuildCacheForOperation": true
+    }
+  ]
+}

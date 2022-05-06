@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "@jennysharps/mobile-components",
+      "comment": "Fixes to components",
+      "type": "patch"
+    }
+  ],
+  "packageName": "@jennysharps/mobile-components"
+}
