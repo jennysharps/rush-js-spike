@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "@jennysharps/mobile-components",
+      "comment": "Added REAMD.md",
+      "type": "patch"
+    }
+  ],
+  "packageName": "@jennysharps/mobile-components"
+}
