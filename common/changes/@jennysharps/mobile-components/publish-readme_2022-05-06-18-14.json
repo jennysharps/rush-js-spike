@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "@jennysharps/mobile-components",
+      "comment": "Publish README",
+      "type": "patch"
+    }
+  ],
+  "packageName": "@jennysharps/mobile-components"
+}
